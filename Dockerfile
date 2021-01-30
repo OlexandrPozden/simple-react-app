@@ -17,5 +17,8 @@ COPY . .
 
 EXPOSE 3000
 
+VOLUME  ./:/usr/src/app 
+            
+VOLUME /usr/src/app/node_modules
 # start app
 CMD ["yarn", "start"]
