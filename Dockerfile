@@ -21,4 +21,4 @@ VOLUME  ./:/usr/src/app
             
 VOLUME /usr/src/app/node_modules
 # start app
-CMD ["yarn", "start"]
+#CMD ["yarn", "start"]
