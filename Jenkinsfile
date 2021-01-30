@@ -1,6 +1,8 @@
 pipeline{
 
-    agent any
+    agent {
+        dockerile true
+    }
 
     stages {
         stage("build") {
